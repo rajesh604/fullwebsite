@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* border: 2px solid white; */
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 1vw;
+    color: white;
+}
+
+#image1{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 20vw;
+    margin-left: 2.2vw;
+    opacity: 0.3;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+#image1:hover{
+    opacity: 0.4;
+}
+
+form div{
+    margin: 3vh;
+}
+
+#email{
+    margin-left: 1.6vw;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("/images/image3/dna.jpg");
+    background-size: cover;
+}
+
+div span{
+    font-size: larger;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+}
+
+b{
+    color: lightseagreen;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 21vw;
+    height: 5vh;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+b:hover{
+    cursor: pointer;
+}
+
+span:hover{
+    cursor: default;
+}
+
+#image1:hover{
+    cursor: default;
+}
+
+#email{
+    height: 3vh;
+    width: 15vw;
+}
+
+#password{
+    height: 3vh;
+    width: 15vw;
+}
+
+#body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display{
+    display: none;
+}

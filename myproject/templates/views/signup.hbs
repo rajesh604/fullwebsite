@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles2.css">
+    <link rel="stylesheet" href="/css/styles3.css">
+</head>
+<body>
+    <div class="forms">
+        <div class="name">
+            <label for="first_name">First name: </label>
+            <input type="text" name="fname" required>
+        </div>
+        <div class="name">
+            <label for="last_name">Last name: </label>
+            <input type="text" name="lname" required>
+        </div>
+        <div class="birthday">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <div class="email">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="label_head">
+            <label for="label">Label: </label>
+            <div class="label">
+                <label for="student">student: </label>
+                <input type="radio" name="choice" id="student">
+                <label for="citizen">Citizen: </label>
+                <input type="radio" name="choice" id="citizen">
+                <label for="entrepreneur">Entrepreneur: </label>
+                <input type="radio" name="choice" id="entrepreneur">
+                <label for="entertainment">Entertainment</label>
+                <input type="radio" name="choice" id="entertainment">
+                <label for="businessman">businessman</label>
+                <input type="radio" name="choice" id="businessman">
+            </div>
+        </div>
+        <div class="select_genre">
+            <div class="student_genre display class_id display" id="student_id">
+                <span>select the label: </span>
+                <label for="student_online">Online Courses</label>
+                <input type="radio" name="choice" id="student_online">
+                <label for="student_guidance">guidance</label>
+                <input type="radio" name="choice" id="student_guidance">
+                {{!-- <input type="text" name="" id="" placeholder="Tell us about your problem and how can we guide you through it we will be glad to help you"> --}}
+                <label for="student_entrepreneurship">entrepreneurship</label>
+                <input type="radio" name="choice" id="student_entrepreneurship">
+                {{!-- <input type="text" name="" id="" placeholder="Tell me about your idea and how are you going to implement it and what can we do to help you we will contact you if we find the idea productive and matching our intrests"> --}}
+                <label for="student_complaint">complaint</label>
+                <input type="radio" name="choice" id="student_complaint">
+                {{!-- <input type="text" name="" id="" placeholder="Tell me about your problem and give us the problem origin location in our institutions or in our companies or any other branch in our conglomerate"> --}}
+            </div>
+            <div class="citizen_genre class_id display" id="citizen_id">
+                <span>select the label: </span>
+                <label for="citizen_employment">Employments</label>
+                <input type="radio" name="" id="citizen_employment">
+                <label for="citizen_service">Service</label>
+                <input type="radio" name="" id="citizen_service">
+                <label for="citizen_entrepreneur">entrepreneurship</label>
+                <input type="radio" name="" id="citizen_entrepreneur">
+                <label for="citizen_finance">sell/buy properties</label>
+                <input type="radio" name="" id="citizen_finance">
+            </div>
+            <div class="entrepreneur_genre class_id display" id="entrepreneur_id">
+                <span>select the label: </span>
+                <label for="entrepreneur_finance">sell shares/Sell the company</label>
+                <input type="radio" name="" id="entrepreneur_finance">
+                <label for="entrepreneur_service">Service</label>
+                <input type="radio" name="" id="entrepreneur_service">
+                <label for="entrepreneur_ceo">Apply for ceo</label>
+                <input type="radio" name="" id="entrepreneur_ceo">
+            </div>
+            <div class="entertainment_genre class_id display" id="entertainment_id">
+                <span>select the label: </span>
+                <label for="entertainment_employment">Employment</label>
+                <input type="radio" name="" id="entertainment_employment">
+                <label for="entertainment_finance">Sell the properties</label>
+                <input type="radio" name="" id="entertainment_finance">
+            </div>
+            <div class="finance_genre class_id display" id="finance_id">
+                <span>select the label: </span>
+                <label for="finance_property">sell/buy properties</label>
+                <input type="radio" name="" id="finance_property">
+                <label for="finance_consultancy">consultancy</label>
+                <input type="radio" name="" id="finance_consultancy">
+                <label for="finance_services">services</label>
+                <input type="radio" name="" id="finance_services">
+            </div>
+        </div>
+        <div class="location">
+            <button id="location">Add location</button>
+        </div>
+        {{>google}}
+        <div class="submit">
+            <button id="button">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="/js/signup.js"></script>
+</html>

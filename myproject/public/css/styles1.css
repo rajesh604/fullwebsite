@@ -1,0 +1,225 @@
+h1{
+    color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#image1{
+    width: 8vw;
+    height: 16vh;
+    border-radius: 200px;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar{
+    background-color: black;
+}
+
+li{
+    color: white;
+}
+
+li:hover{
+    color: coral;
+    cursor: pointer;
+    animation: 1s 1 alternate size;
+    text-decoration: overline;
+}
+
+#image1:hover{
+    animation: 3s infinite alternate images;
+}
+
+@keyframes images{
+    25%{
+        box-shadow: 2px 2px 2px 2px blue;
+    }
+    50%{
+        box-shadow: 2px 2px 2px 2px red;
+    }
+    75%{
+        box-shadow: 2px 2px 2px 2px orange;
+    }
+}
+
+li input{
+    width: 15vw;
+    height: 4vh;
+    margin-right: 1vw;
+    border-width: 5px;
+    border-color: coral;
+}
+
+li button{
+    width: 4.3vw;
+    height: 4.3vh;
+    color: white;
+    background-color: coral;
+    font-size: medium;
+    border-width: 5px;
+    border-color: white;
+}
+
+li input::placeholder{
+    font-size: larger;
+    padding-left: 6vw;
+    color: gold;
+}
+
+
+@keyframes rotation{
+    50%{
+        transform: rotate(360deg);
+    }
+}
+
+/* #setting:hover{
+    animation: 3s 1 alternate rotation;
+} */
+
+/* #setting:active{
+    animation: 3s 1 alternate rotation;
+}
+
+#setting:active{
+    animation: 3s 1 alternate rotation;
+} */
+
+.fade{
+    display: none;
+}
+
+.slide_show{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+.arrow-left{
+    position: relative;
+    bottom: 40vh;
+    color: white;
+    opacity: 0.5;
+}
+
+.arrow-right{
+    position: relative;
+    bottom: 49vh;
+    left: 22.8vw;
+    color: white;
+    opacity: 0.5;
+}
+
+.arrow-right1{
+    position: relative;
+    bottom: 49vh;
+    left: 35.8vw;
+    color: white;
+    opacity: 0.5;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+    opacity: 0.5;
+}
+
+.arrow-left:hover{
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.arrow-right:hover{
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.arrow-right1:hover{
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.text:hover{
+    opacity: 1.0;
+}
+
+.slides img{
+    box-shadow: 0.2px 0.2px 0.2px 0.2px white;
+}
+
+.slides1 img{
+    box-shadow: 0.2px 0.2px 0.2px 0.2px white;
+}
+
+.slides2 img{
+    box-shadow: 0.2px 0.2px 0.2px 0.2px white;
+}
+
+.slides .text{
+    box-shadow: 1px 1px 1px 1px white;
+    /* text-shadow: 1px 1px 1px 1px white; */
+}
+
+.slides1 .text{
+    box-shadow: 1px 1px 1px 1px white;
+    /* text-shadow: 1px 1px 1px 1px white; */
+}
+
+.slides2 .text{
+    box-shadow: 1px 1px 1px 1px white;
+    /* text-shadow: 1px 1px 1px 1px white; */
+}
+
+.slides .text:hover{
+    cursor: default;
+}
+
+.slides1 .text{
+    cursor: default;
+}
+
+.slides2 .text{
+    cursor: default;
+}
+
+#set{
+    display: inline;
+}
+
+.noneli:hover{
+    text-decoration: none;
+}
+
+#setting2:hover{
+    text-decoration: none;
+}
+
+.noneli{
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+#setting1:hover{
+    color: coral;
+}
+
+#set i{
+    margin-right: 0.3vw;
+    margin-bottom: 1vh;
+}

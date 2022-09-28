@@ -1,0 +1,19 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^1.2.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "mongoose": "^6.6.2",
+    "require": "^0.4.4",
+    "selenium-webdriver": "^4.4.0"
+  }
+}

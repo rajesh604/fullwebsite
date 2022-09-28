@@ -1,0 +1,50 @@
+body{
+    background-image: url("/images/signup.jpg");
+}
+
+img{
+    width: 20vw;
+    height: 40vh;
+    opacity: 0.6;
+    border-radius: 20vw;
+}
+
+label{
+    font-size: larger;
+}
+
+.forms div{
+    margin-bottom: 2vh;
+}
+
+.name input{
+    width: 15vw;
+    height: 3vh;
+}
+
+.forms span{
+    display: block;
+}
+
+iframe{
+    width: 35vw;
+    height: 50vh;
+}
+
+#location{
+    width: 35vw;
+}
+
+#button{
+    width: 35vw;
+    margin-top: 2vh;
+}
+
+input{
+    font-size: larger;
+}
+
+#email{
+    width: 20vw;
+    margin-left: 1vh;
+}
